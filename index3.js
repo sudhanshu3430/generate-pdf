@@ -17,5 +17,5 @@ async function extractFormFieldNames(pdfPath) {
 }
 
 // Example usage: Replace with your PDF file path
-const pdfPath = 'template.pdf';
+const pdfPath = 'invoice_with_fillable_text.pdf';
 extractFormFieldNames(pdfPath);

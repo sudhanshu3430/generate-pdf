@@ -25,13 +25,17 @@ async function fillPdfTemplate(templatePath, outputPath, formData) {
 }
 
 // Example usage
-const templatePath = 'template1.pdf';  // Path to the PDF template
+const templatePath = 'newform.pdf';  // Path to the PDF template
 const outputPath = 'filled_output.pdf'; // Path to save the filled PDF
 const formData = {
-    'Business Name 02': 'John Doe',
-    "Due Date": "12/11/2024",
-    "Date of issue": "13/11/2024",
-    "Invoice No":"1234"
+  'customer_name': "Sudhanshu",
+  'invoice_number': "1234",
+  'invoice_date': "11/12/2024",
+  'item1_name': "iphone",
+  'item1_quantity':"1",
+  'item1_price':"70,000",
+  'item1_total':"70,000",
+  'total_amount':"70,000"
     
 
 };
